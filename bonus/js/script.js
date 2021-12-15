@@ -16,9 +16,20 @@ const app = new Vue(
     data :{
         message: 'messaggio importante',
         image:'https://picsum.photos/id/237/200/300',
+        messageInput: 'Scrivi qui',
+        imageProdotti:'https://www.superelite.it/images/prodotti/selex_home.png',
+        counterProdotti: null
+    },
+    methods:{
+        counter:function(){
+            this.counterProdotti += 1
+
+        }
     }
 
 
 
 
 });
+
+

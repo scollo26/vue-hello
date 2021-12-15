@@ -15,7 +15,15 @@
         <img :src="image" alt="">
         <hr>
         <h1>Bonus 1</h1>
-        
+        <div>
+            <input v-model ="messageInput" type="text">
+        </div>
+        <hr>
+        <h1>Bonus 1</h1>
+        <img :src="imageProdotti" alt="">
+        <div :class="counterProdotti">Numero dei prodotti desiderati {{ counterProdotti}}</div>
+        <button @click= "counter"><i class="fas fa-money-check-alt fa-3x"></i> </button>
+        <hr>
         
         
 
